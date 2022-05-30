@@ -1,0 +1,21 @@
+Starting commands of git 
+git -> it will show you all the usage, clone , versions and all
+git init -> it will initialise all the git repositories in the folder or in the local folder
+git config -> it will show you how to configure all the commands global, system and on the local 
+git config --global user.name shivammavis1 -> to set the username for git 
+git config --global user.email "kumar.shivam0611@gmail.com" -> to set email id for globally use
+touch .gitignore -> for making a file generally in what folders or file to ignore when I will be pushing to github from git :)
+git add . -> To put all contents in the staging area
+git commit -m "Initial commit" -> it will take a snapshot and associate a git is like git is making a copy of my files and folders to start preparing for commit to github
+git status -> it will tell you that in what status our git is in on branch master, nothing to commit
+then go to the repo in which i need to commit and select SSH tab and copy the link
+go to git bash and type git remote add origin [SSH link] -> it will accept the path of the repository
+git push origin master -> tell that Please make sure you have the correct access rights and the repository exists.
+so for that first goto the https://github.com/settings/keys and select SSH and GPG keys -> add new -> s=type new title  
+SSH key -> gives public key acces credential or Secure SHell to a public git user to get acccess to push, commit files and folders in my github
+ssh-keygen -t rsa -b 4096 -C "kumar.shivam0611@gmail.com -> for generating public/private rsa key pair
+key is generated soo go to your key has been saved in after that the link so copy the link and type cat [link] -> link will be displayed so copy the ssh key and paste it
+into the key box under the title bar in github and press add ssh key.
+git push origin master -> now o=you have acces so the files will be pushed :)
+
+thank you for coming here
